@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/provinsi"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/table_bg"
+        android:textSize="11sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/kasus"
+        android:layout_width="64.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_bg"
+        android:textSize="11sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/dirawat"
+        android:layout_width="64.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_bg"
+        android:textSize="11sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/sembuh"
+        android:layout_width="64.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_bg"
+        android:textSize="11sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/meinggal"
+        android:layout_width="64.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_bg"
+        android:textSize="11sp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
